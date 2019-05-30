@@ -1,0 +1,262 @@
+<html>
+<head>
+ <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
+  <script src="../dist/build/phoneawesome.js"></script>
+    
+
+</head>
+<body>
+        <div class="uk-section uk-section-default">
+                <div class="uk-container">
+            
+                   
+            
+                    <div class="uk-grid-match uk-child-width-1-1@m" uk-grid>
+                       
+                       
+                        <div style='text-align:center;'>
+                            <p>
+        <img src="http://programlama.xyz/phoneawesome/examples/big_logo_white.png">
+        <h3>Best Way to Create Phone Display on HTML Pages</h3>
+        <h4>Install with CDN</h4>
+        <code>
+                &#x3C;head&#x3E;
+                &#x3C;link href=&#x22;https://cdn.jsdelivr.net/gh/omerimzali/uiterminal@master/uiterminal.min.css&#x22;&#x3E;
+        &#x3C;/head&#x3E;
+        </code>
+                            </p>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+    <div class="uk-section uk-section-default">
+        <div class="uk-container">
+    
+            <h3>iPhone X</h3>
+    
+            <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
+                <div>
+                    <p><div class='phoneawesome'></div></p>
+                </div>
+               
+                <div>
+                    <p>
+
+                        <code>
+                                &#x3C;div class=&#x27;phoneawesome&#x27;&#x3E;&#x3C;/div&#x3E;
+                                <br><br>
+                            var options = {src:"https://edwardtufte.github.io/tufte-css/"};<br>
+                            var iphone = phoneawesome('.phoneawesome',options);
+
+                        </code>
+                    </p>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    
+    <div class="uk-section uk-section-muted">
+        <div class="uk-container">
+    
+            <h3>Different devices</h3>
+    
+            <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
+
+                <div>
+                    <p><div id='device1'></div></p>
+                </div>
+                <div>
+                        <p><div id='device2'></div></p>
+                    </div> 
+
+            </div>
+            <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
+                    <div>
+                            <p><div id='device3'></div></p>
+                        </div> 
+                <div>
+                        <p>
+                                <code>
+                                        &#x3C;div id=&#x27;device1&#x27;&#x3E;&#x3C;/div&#x3E;<br>
+                                        var options = {device:"iphone-8",<br>src:"https://edwardtufte.github.io/tufte-css/"};<br>
+                                        var device1 = phoneawesome('#device1',options);<br>
+                                        <br><br>
+                                       
+                                        &#x3C;div id=&#x27;device2&#x27;&#x3E;&#x3C;/div&#x3E;<br>
+                                        var options = {device:"google-pixel-2-xl",<br>src:"https://edwardtufte.github.io/tufte-css/"};<br>
+                                        var device2 = phoneawesome('#device2',options);<br>
+                                        <br><br>
+    
+                                        &#x3C;div id=&#x27;device3&#x27;&#x3E;&#x3C;/div&#x3E;<br>
+                                        var options = {device:"google-pixel",<br>src:"https://edwardtufte.github.io/tufte-css/"};<br>
+                                        var device3 = phoneawesome('#device3',options);<br>
+                                        <br><br>
+        
+                                </code>
+                            
+                        </p>
+                    </div>
+                   
+                
+            </div>
+
+      
+    
+        </div>
+    </div>
+    
+    <div class="uk-section uk-section-primary uk-light">
+        <div class="uk-container">
+    
+            <h3>Different Sizes</h3>
+            <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
+                    <div>
+                            <p><div id='device4'></div></p>
+                        </div> 
+                <div>
+                        <p><div id='device5'></div></p>
+                    </div>
+                   
+                
+            </div> 
+            <div class="uk-grid-match uk-child-width-1-1@m" uk-grid>
+                    <div>
+                         
+                        <p>
+                                <code>
+                                        &#x3C;div id=&#x27;device1&#x27;&#x3E;&#x3C;/div&#x3E;<br>
+                                        var options = {device:"iphone-8",<br>src:"https://edwardtufte.github.io/tufte-css/"};<br>
+                                        var device4 = phoneawesome('#device4',options);<br>
+                                        <br><br>
+                                       
+                                        &#x3C;div id=&#x27;device2&#x27;&#x3E;&#x3C;/div&#x3E;<br>
+                                        var options = {device:"iphone-8",width:"400",height:"600",<br>src:"https://edwardtufte.github.io/tufte-css/"};<br>
+                                        var device5 = phoneawesome('#device5',options);<br>
+                                        <br><br>
+    
+        
+                                </code>
+                            
+                        </p>
+                    </div>
+                   
+                
+            </div>
+    
+        </div>
+    </div>
+    
+    <div class="uk-section uk-section-secondary uk-light">
+        <div class="uk-container">
+    
+            <h3>changesrc()</h3>
+    
+            <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
+                <div>
+                        <p><div id='device6'></div></p>
+                </div>
+                <div>
+                        <div class="uk-button-group">
+                        <button onclick="changespectre()" class="uk-button uk-button-primary uk-width-1-2 ">Change SRC Spectre</button>
+                        <button  onclick="changenescss()" class="uk-button uk-button-danger uk-width-1-2 ">Change SRC NES.CSS</button>
+                    </div><br> 
+                        <code><br> 
+                                var device6options = {device:"iphone-8",width:"400",height:"600",<br> src:"https://picturepan2.github.io/spectre/"};
+                                <br>  var device6 = phoneawesome('#device6',device6options);<br> 
+                                <br> 
+                                device6.changesrc("https://nostalgic-css.github.io/NES.css/");  <br> 
+                                //or <br> 
+                                device6.changesrc("https://picturepan2.github.io/spectre/");<br> 
+                        </code>  </div>
+            </div>
+    
+        </div>
+    </div>
+    
+    <div class="uk-section uk-section-primary uk-light">
+        <div class="uk-section" >
+            <div class="uk-container">
+    
+                <h3>Device List</h3>
+    
+                <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
+                    <div>
+                        <p>
+                            All smartphones in <a href="https://github.com/picturepan2/devices.css" target="_blank">Devices.css</a> avaible to use.
+                            <ul>
+                                <li>
+                                    iphone-x
+                                </li>
+                                <li>
+                                    iphone-8
+                                </li>
+                                <li>
+                                    google-pixel
+                                </li>
+                                <li>
+                                    google-pixel-2-xl
+                                </li>
+                            </ul>
+
+                        </p>
+                    </div>
+                    <div>
+                            <p>
+                                Thanks to picturepan2 for this amazing CSS library <a href="https://github.com/picturepan2/devices.css" target="_blank">-Devices.CSS-</a> to make Devices on html 
+                                <ul>
+                                    <li><a target='_blank' href="https://github.com/omerimzali/uiterminal">UITerminal</a></li>
+                                    <li><a target='_blank' href="https://github.com/omerimzali/phoneawesome">PhoneAwesome</a></li>
+                                </ul>
+                            </p>
+                        
+                        </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+<script>
+    var options = {src:"https://picturepan2.github.io/spectre/"};
+
+    var device1 = {device:"iphone-8",src:"https://picturepan2.github.io/spectre/"};
+    phoneawesome('#device1',device1);
+    
+    var device2 = {device:"google-pixel-2-xl",src:"https://picturepan2.github.io/spectre/"};
+    phoneawesome('#device2',device2);
+    
+    var device3 = {device:"google-pixel",src:"https://picturepan2.github.io/spectre/"};
+    phoneawesome('#device3',device3);
+
+     var device4 = {device:"iphone-8",src:"https://edwardtufte.github.io/tufte-css/"};
+     phoneawesome('#device4',device4);
+
+     var device5 = {device:"iphone-8",width:"400",height:"600",src:"https://picturepan2.github.io/spectre/"};
+     phoneawesome('#device5',device5);
+                               
+     var device6options = {device:"iphone-8",width:"400",height:"600",src:"https://picturepan2.github.io/spectre/"};
+     var device6 = phoneawesome('#device6',device6options);
+           
+
+    var a = phoneawesome('.phoneawesome',options);
+
+
+    function changenescss() {
+     device6.changesrc("https://nostalgic-css.github.io/NES.css/");
+}
+
+    function changespectre() {
+     device6.changesrc("https://picturepan2.github.io/spectre/");
+}
+  
+    </script>
+
+</body>
+
+</html>
