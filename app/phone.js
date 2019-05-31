@@ -22,19 +22,11 @@ class Phone {
                     var devicewidth = div.offsetWidth;
                 }
 
-
-                if(options.src){
-                    this.deviceframe = document.createElement('iframe');
-                  
-                    this.deviceframe.src = options.src;
-                  
-                    
-                }else{
-                    this.deviceframe = document.createElement('div');
-                }
-
+                this.deviceframe = document.createElement('div');
                 this.deviceframe.setAttribute('class','device-frame');
-             
+
+                this.devicecontent = document.createElement('div');
+                this.devicecontent.setAttribute('class','device-content');
 
                 var devicestripe = document.createElement('div');
                 devicestripe.setAttribute('class','device-stripe');
@@ -54,8 +46,22 @@ class Phone {
                 var devicehome = document.createElement('div');
                 devicehome.setAttribute('class','device-home');
 
+
+
                 selectid.appendChild(div);
                 div.appendChild(this.deviceframe);
+                this.deviceframe.appendChild(this.devicecontent);
+                if(options.src){
+              
+                    this.devicecontentinner = document.createElement('iframe');
+                    this.devicecontentinner.setAttribute('class','device-content');
+                    this.devicecontentinner.src = options.src;
+                    this.devicecontent.appendChild(this.devicecontentinner);
+                  
+                    
+                }
+
+              
                 div.appendChild(devicestripe);
                 if(!(options.width) || !(options.height)){
                     div.appendChild(deviceheader);
@@ -83,6 +89,8 @@ class Phone {
                     var deviceheaderfirstwidth = deviceheader.offsetWidth;
                     div.style.width = options.width;
                     this.deviceframe.style.width = options.width;
+                    this.devicecontent.style.width = options.width;
+                    this.devicecontentinner.style.width = options.width;
                     devicestripe.style.width = devicestripe.offsetWidth*widthchangeratio;
                     //deviceheader.style.width = "unset";
                     devicesensors.style.width = devicesensors.offsetWidth*widthchangeratio;
@@ -99,7 +107,8 @@ class Phone {
                     var deviceheaderfirstheight = deviceheader.offsetHeight;
                     div.style.height = options.height;
                     this.deviceframe.style.height = options.height;
-                 
+                    this.devicecontent.style.height = options.height;
+                    this.devicecontentinner.style.height = options.height;
               
                 }
 
@@ -115,7 +124,8 @@ class Phone {
 
     changesrc(newsrc){
        
-        this.deviceframe.src = newsrc;
+
+        this.devicecontentinner.src = newsrc;
     }
 
   }

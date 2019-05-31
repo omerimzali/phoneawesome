@@ -25,6 +25,7 @@
   background-size: cover;
   object-fit: cover;
   position: relative;
+  overflow:hidden;
 }
 
 .device-iphone-x {
