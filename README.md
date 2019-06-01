@@ -84,7 +84,7 @@ cd uiterminal
 ```
 
 ## Thanks 
- Phoneawesome Based on Devices.css, I have to thank to [BcRicco](https://github.com/picturepan2) 
+ Phoneawesome Based on Devices.css, I have to thank to [PicturePan2](https://github.com/picturepan2) 
 
 
 
