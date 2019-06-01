@@ -17,7 +17,7 @@ PhoneAwesome is a Javascript Library to create phone display on web pages.
 
 ## Install
 
-You can get UITerminal with CDN.
+You can get Phoneawesome with CDN.
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/omerimzali/phoneawesome@master/dist/build/phoneawesome.js"></script>
@@ -73,13 +73,13 @@ Phoneawesome tested on following browsers.
 
 ## Development&Contributions
 
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/omerimzali/uiterminal)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/omerimzali/phoneawesome)
 
 You can fork the project and enter this commands in your terminal.
 
 ```sh
 git clone https://github.com/YOUR_GITHUB_USERNAME/phoneawesome.git
-cd uiterminal
+cd phoneawesome
 
 ```
 
