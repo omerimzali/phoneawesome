@@ -29,7 +29,6 @@ git clone https://github.com/omerimzali/phoneawesome.git
 
 ## Usage
 
-## Elements&Colors&ETC
 1. Creating a Device.
 ```
 <div id='device1'></div>
